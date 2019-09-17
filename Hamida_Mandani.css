@@ -1,0 +1,260 @@
+html{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    background: url("black-wallpaper-22.jpg");
+}
+
+
+#container
+
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+    /*background: url("black-wallpaper-22.jpg");*/
+    /*height: 5000px;*/
+    /*padding: 50px;*/
+    width: 100%;
+}
+
+h1 {
+    grid-column: 1/10;
+    /*grid-row: 1;*/
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    padding: 25px;
+    font-family: Roboto, sans-serif;
+
+
+}
+
+#myname{
+    font-size: 55px;
+    grid-column: 2/4;
+
+}
+
+
+nav {
+    grid-column: 2/8;
+    /*grid-row: 2;*/
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-bottom: 1px solid darkslategray;
+    border-top:  1px solid darkslategray;
+
+
+}
+
+#git {
+
+    grid-column: 8;
+    /*grid-row: 2;*/
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    border-bottom: 1px solid darkslategray;
+    border-top:  1px solid darkslategray;
+}
+
+#linkedIn {
+    grid-column: 9;
+    /*grid-row: 2;*/
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    border-bottom: 1px solid darkslategray;
+    border-top:  1px solid darkslategray;
+}
+
+.nav-item {
+
+    font-size: 30px;
+
+}
+
+.nav-link {
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+
+#hello
+{
+    margin-top: 300px;
+    font-family: "Courier New", cursive;
+    font-size: 30px;
+    grid-column: 2/4;
+    color: turquoise;
+    padding: 25px;
+
+}
+
+#aboutmeTitle {
+    /*grid-row: 4;*/
+    grid-column: 2/10;
+    font-size: 50px;
+    height: 100%;
+    color: turquoise;
+    padding: 25px;
+    border-top: 1px solid darkslategray;
+
+
+
+}
+#aboutme {
+    /*grid-row: 5;*/
+    grid-column: 2/6;
+    font-size: 25px;
+    height: 20%;
+    color: white;
+    padding: 25px
+
+}
+
+
+
+
+#skillsTitle {
+    /*grid-row: 7;*/
+    grid-column: 2/10;
+    font-size: 50px;
+    height: 100%;
+    color: turquoise;
+    padding: 25px
+
+}
+#skills {
+    /*grid-row: 8;*/
+    grid-column: 2;
+    font-size: 25px;
+    height: 20%;
+    color: white;
+    padding: 25px
+
+}
+
+#eduTitle {
+    /*grid-row: 9;*/
+    margin-top: 70px;
+    grid-column: 2/10;
+    font-size: 50px;
+    height: 100%;
+    color: turquoise;
+    padding: 25px
+
+}
+#education {
+    /*grid-row: 10;*/
+    grid-column: 2/8;
+    font-size: 25px;
+    height: 20%;
+    color: white;
+    padding: 25px
+
+}
+#proTitle {
+    /*grid-row: 9;*/
+    grid-column: 2/10;
+    font-size: 50px;
+    height: 100%;
+    color: turquoise;
+    padding: 25px
+
+}
+#projects {
+    /*grid-row: 10;*/
+    grid-column: 2/8;
+    font-size: 25px;
+    height: 20%;
+    color: white;
+    padding: 25px
+}
+
+#resumeTitle {
+    /*grid-row: 9;*/
+    grid-column: 2/10;
+    font-size: 50px;
+    height: 100%;
+    color: turquoise;
+    padding: 25px
+
+}
+#resume {
+    /*grid-row: 10;*/
+    grid-column: 2/8;
+    font-size: 25px;
+    height: 20%;
+    color: white;
+    padding: 25px
+}
+
+#conTitle {
+    /*grid-row: 9;*/
+    grid-column: 2/10;
+    font-size: 50px;
+    height: 100%;
+    color: turquoise;
+    padding: 25px
+
+}
+#contact
+{
+    /*grid-row: 10;*/
+    grid-column: 2/8;
+    font-size: 25px;
+    height: 20%;
+    color: white;
+    padding: 25px
+}
+
+.skill_table
+
+{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    grid-column: 1/7;
+    border: 1px solid white;
+
+}
+
+
+.skillimages
+
+{
+
+    height: 150px;
+    width: 150px;
+    border: white 2px solid;
+    border-radius: 25px;
+}
+
+
+#edu_table
+{
+    grid-column: 2;
+    padding: 10px;
+
+}
+.round_images{
+    border-radius: 25px;
+}
+
+footer
+
+{
+    color: lightgrey;
+    font-size: 30px;
+    grid-column: 2/10;
+    text-align: center;
+}
