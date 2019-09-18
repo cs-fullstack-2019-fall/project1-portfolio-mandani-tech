@@ -1,16 +1,15 @@
-html{
+html {
     width: 100%;
 }
 
-body{
+body {
     width: 100%;
     background: url("black-wallpaper-22.jpg");
+
 }
 
 
-#container
-
-{
+#container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
@@ -18,6 +17,8 @@ body{
     /*height: 5000px;*/
     /*padding: 50px;*/
     width: 100%;
+    padding: 2%;
+
 }
 
 h1 {
@@ -33,9 +34,11 @@ h1 {
 
 }
 
-#myname{
+#myname {
     font-size: 55px;
     grid-column: 2/4;
+    color: #f75c00;
+    font-family: "Courier New", cursive;
 
 }
 
@@ -46,8 +49,11 @@ nav {
     width: 100%;
     height: 100%;
     padding: 10px;
-    border-bottom: 1px solid darkslategray;
-    border-top:  1px solid darkslategray;
+    border-bottom: 2px solid darkslategray;
+    border-top: 2px solid darkslategray;
+    border-left: 2px solid darkslategray;
+    background-color: darkslategray;
+    border-radius: 25px;
 
 
 }
@@ -58,9 +64,12 @@ nav {
     /*grid-row: 2;*/
     width: 100%;
     padding: 10px;
-    height: 100px;
-    border-bottom: 1px solid darkslategray;
-    border-top:  1px solid darkslategray;
+    height: 100%;
+    border-bottom: 2px solid darkslategray;
+    border-top: 2px solid darkslategray;
+    border-left: 2px solid darkslategray;
+    border-radius: 25px;
+    background-color: darkslategray;
 }
 
 #linkedIn {
@@ -68,9 +77,12 @@ nav {
     /*grid-row: 2;*/
     width: 100%;
     padding: 10px;
-    height: 100px;
-    border-bottom: 1px solid darkslategray;
-    border-top:  1px solid darkslategray;
+    height: 100%;
+    border-bottom: 2px solid darkslategray;
+    border-top: 2px solid darkslategray;
+    border-right: 2px solid darkslategray;
+    border-radius: 25px;
+    background-color: darkslategray;
 }
 
 .nav-item {
@@ -85,33 +97,41 @@ nav {
 }
 
 
-#hello
-{
+#hello {
     margin-top: 300px;
     font-family: "Courier New", cursive;
-    font-size: 30px;
+    font-size: 40px;
     grid-column: 2/4;
-    color: turquoise;
+    color: #f75c00;
     padding: 25px;
+
+}
+
+#mypic {
+    margin-left: 30%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    border: darkslategray 10px solid;
+    border-radius: 75px;
 
 }
 
 #aboutmeTitle {
     /*grid-row: 4;*/
     grid-column: 2/10;
-    font-size: 50px;
+    font-size: 40px;
     height: 100%;
     color: turquoise;
     padding: 25px;
-    border-top: 1px solid darkslategray;
-
+    /*border-top: 1px solid #f75c00;*/
 
 
 }
+
 #aboutme {
     /*grid-row: 5;*/
     grid-column: 2/6;
-    font-size: 25px;
+    font-size: 35px;
     height: 20%;
     color: white;
     padding: 25px
@@ -119,17 +139,16 @@ nav {
 }
 
 
-
-
 #skillsTitle {
     /*grid-row: 7;*/
     grid-column: 2/10;
-    font-size: 50px;
+    font-size: 40px;
     height: 100%;
     color: turquoise;
     padding: 25px
 
 }
+
 #skills {
     /*grid-row: 8;*/
     grid-column: 2;
@@ -144,117 +163,139 @@ nav {
     /*grid-row: 9;*/
     margin-top: 70px;
     grid-column: 2/10;
-    font-size: 50px;
+    font-size: 40px;
     height: 100%;
     color: turquoise;
     padding: 25px
 
 }
+
 #education {
     /*grid-row: 10;*/
-    grid-column: 2/8;
+    grid-column: 2/10;
     font-size: 25px;
     height: 20%;
     color: white;
     padding: 25px
 
+
 }
+
+
 #proTitle {
     /*grid-row: 9;*/
     grid-column: 2/10;
-    font-size: 50px;
+    font-size: 40px;
     height: 100%;
     color: turquoise;
     padding: 25px
 
 }
+
 #projects {
     /*grid-row: 10;*/
     grid-column: 2/8;
     font-size: 25px;
     height: 20%;
     color: white;
-    padding: 25px
+    padding: 25px;
+
 }
+
+
+
+
 
 #resumeTitle {
     /*grid-row: 9;*/
     grid-column: 2/10;
-    font-size: 50px;
+    font-size: 40px;
     height: 100%;
     color: turquoise;
-    padding: 25px
-
+    padding: 25px;
 }
+
 #resume {
     /*grid-row: 10;*/
     grid-column: 2/8;
-    font-size: 25px;
-    height: 20%;
+    font-size: 35px;
+    height: 1200px;
+    width: 1000px;
     color: white;
-    padding: 25px
+    padding: 25px;
+}
+
+#pdf
+{
+    grid-column: 2/8;
+    padding: 25px;
+    font-size: 25px;
+    width: 500px;
+    height: 200px;
+    color: #f75c00;
+
 }
 
 #conTitle {
     /*grid-row: 9;*/
     grid-column: 2/10;
-    font-size: 50px;
+    font-size: 40px;
     height: 100%;
     color: turquoise;
-    padding: 25px
+    padding: 25px;
 
 }
-#contact
-{
+
+#contact {
     /*grid-row: 10;*/
     grid-column: 2/8;
     font-size: 25px;
     height: 20%;
     color: white;
-    padding: 25px
+    padding: 25px;
 }
 
-.skill_table
-
-{
+.td_table {
     height: 100%;
-    width: 100%;
+    width: 300px;
     padding: 25px;
     font-size: 35px;
     color: white;
     text-align: center;
     grid-column: 1/7;
-    border: 1px solid white;
+
 
 }
 
 
-.skillimages
+.skillimages {
 
-{
 
-    height: 150px;
-    width: 150px;
-    border: white 2px solid;
+    border: #f75c00 4px solid;
     border-radius: 25px;
 }
 
 
-#edu_table
-{
+#edu_table {
     grid-column: 2;
     padding: 10px;
 
+
 }
-.round_images{
+
+.round_images {
     border-radius: 25px;
+    border: #f75c00 5px solid;
+
 }
 
-footer
-
-{
+footer {
     color: lightgrey;
     font-size: 30px;
     grid-column: 2/10;
     text-align: center;
+}
+
+#back_to_top {
+    color: #f75c00;
 }

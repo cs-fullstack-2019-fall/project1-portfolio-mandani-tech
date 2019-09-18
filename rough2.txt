@@ -1,0 +1,41 @@
+HAMIDA MANDANI <br>
+        923 Harbor View Dr Memphis, TN 38103 <br>
+        Email: mandani.hamida@gmail.com <br>
+        Cell: 901.347.4680 <br>
+        US Citizen <br><br>
+
+        Education: <br>
+        Code School <br>
+        CodeCrew Code School <br>
+        2019-2020 <br>
+        MBA GPA 3.58 (Major Computer Information Systems)<br>
+        2007-2009 <br>
+        University of North Alabama Florence , AL USA<br>
+        Bachelors In Engineering Electronics and Telecommunications<br>
+        2001-2005<br>
+        Diploma in Industrial Electronics,<br>
+        Government Polytechnic Mumbai, India<br>
+        1998-2001<br>
+        <br><br>
+
+        Projects:<br>
+        Code Crew Projects 2019<br>
+        Developed a button Clicking Game using JavaScript, HTML and CSS<br>
+        Developed a hide-and-show Game using Javascript ,HTML, CSS, JQuery.<br>
+        <br><br>
+        Vodafone 2005-2007<br>
+        Contributed as a Junior Engineer with GSM /Edge Radio Frequency cell -site roll out of several In Building Solutions sites  and full - cell sites .I was involved in design , optimization and testing using Maps Info, Planet EV and TEMS drive testing tools.
+        <br><br>
+        Engineering Project as an intern at Messung Systems 2004-2005<br>
+        Developed Ethernet based input/Output module for PLC for a remote bottling plant using C programming, SCADA and MatLab. <br>
+
+        <br><br>
+        High School Diploma Project-2000-2001 <br>
+        Designed an employee time in -time out swipe card unit using basic PLC design , using Matlab to program microcontroller and C programming to interface.  <br>
+        <br><br>
+        Work Experience:<br>
+        Seven Oceans Inc 2015-Current<br>
+        Sagar Group Inc 2010-2019<br>
+        IT Engineer Splendid Hospitality 2009-2010<br>
+        RF Engineer at Vodafone 2005-2007<br>
+        Interned at Messung Systems 2004-2005<br>
