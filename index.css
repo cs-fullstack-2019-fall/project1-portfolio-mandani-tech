@@ -5,6 +5,7 @@ html {
 body {
     width: 100%;
     background: url("black-wallpaper-22.jpg");
+    background-color: black;
 
 }
 
@@ -34,35 +35,29 @@ body {
     width: 100%;
     height: 100%;
     padding: 20px;
-    border-bottom: 2px solid darkslategray;
-    border-top: 2px solid darkslategray;
-    border-left: 2px solid darkslategray;
+    border: 2px solid darkslategray;
     background-color: darkslategray;
     border-radius: 25px;
 }
 
 #git {
 
-    grid-column: 9;
-    width: 95%;
-    padding: 20px;
+    grid-column:8;
+    width: 100%;
     height: 100%;
-    border-bottom: 2px solid darkslategray;
-    border-top: 2px solid darkslategray;
-    border-left: 2px solid darkslategray;
+    border: 2px solid darkslategray;
     border-radius: 25px;
     background-color: darkslategray;
 }
 
 #linkedIn {
-    grid-column: 10;
-    width: 95%;
-    padding: 20px;
+    grid-column: 9;
+    width: 90%;
+    padding: 2px;
     margin-left: 15px;
     height: 100%;
-    border-bottom: 2px solid darkslategray;
-    border-top: 2px solid darkslategray;
-    border-right: 2px solid darkslategray;
+    text-align: center;
+    border: 2px solid darkslategray;
     border-radius: 25px;
     background-color: darkslategray;
 }
@@ -86,11 +81,14 @@ body {
     font-size: 35px;
 }
 
+
+
+
 #hello {
     margin-top: 300px;
     font-family: "Courier New", cursive;
     font-size: 40px;
-    grid-column: 2/4;
+    grid-column: 2/6;
     color: #f75c00;
     padding: 25px;
 
@@ -105,115 +103,153 @@ body {
 
 }
 
+#sideart{
+    margin-top: 15%;
+    margin-left: 15%;
+grid-column:8;
+}
+
 #aboutmeTitle {
 
     grid-column: 2/10;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bolder;
     height: 100%;
-    color: turquoise;
+    color: #f75c00;
     padding: 25px;
-
-
-
-
 }
 
 #aboutme {
 
-    grid-column: 2/6;
+    grid-column: 2/10;
     font-size: 35px;
-    height: 20%;
+    height: 100%;
     color: white;
-    padding: 25px
-
+    padding: 2%;
+    font-family:"Courier New", cursive;
+    background-color: darkslategray;
+    border-radius: 75px;
+    margin-top: 5%;
 }
 
 
 #skillsTitle {
 
     grid-column: 2/10;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bolder;
     height: 100%;
-    color: turquoise;
-    padding: 25px
+    color: #f75c00;
+    padding: 2%;
+    margin-top: 10%;
 
 }
 
 #skills {
 
-    grid-column: 2;
+    grid-column: 2/10;
     font-size: 25px;
-    height: 20%;
+    height: 100%;
+    width: 100%;
     color: white;
-    padding: 25px
+    background-color: darkslategray;
+    border-radius: 75px;
+    margin-top: 5%;
 
+}
+
+.skillimages {
+
+    border: #f75c00 4px solid;
+    border-radius: 25px;
+    margin-top: 15%;
 }
 
 #eduTitle {
 
-    margin-top: 70px;
+    margin-top: 10%;
     grid-column: 2/10;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bolder;
     height: 100%;
-    color: turquoise;
-    padding: 25px
+    color: #f75c00;
+    padding: 25px;
+    margin-bottom: 5%;
 
 }
 
 #education {
 
+
     grid-column: 2/10;
-    font-size: 25px;
-    height: 20%;
+    margin-top: 2%;
+    font-size: 35px;
+    height: 100%;
     color: white;
-    padding: 25px
+    padding: 2%;
+    background-color: darkslategray;
+    border-radius: 75px;
+
+}
 
 
+#edu_table {
+    grid-column: 2;
+    padding: 10px;
+
+}
+
+
+.edu_td_table {
+    height: 100%;
+    width: 700px;
+    padding: 25px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    grid-column: 1/7;
+    border-top:solid 1px white ;
+    border-bottom:solid 1px white ;
+
+}
+
+.td_table {
+    height: 100%;
+    width: 700px;
+    padding: 25px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    grid-column: 1/7;
 }
 
 
 #proTitle {
 
     grid-column: 2/10;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bolder;
     height: 100%;
-    color: turquoise;
+    color: #f75c00;
     padding: 25px;
     margin-top: 10%;
+    margin-bottom: 5%;
 
 
 }
 
 #projects_table_section {
 
-    grid-column: 2/8;
+    grid-column: 2/10;
     font-size: 25px;
     text-align: center;
-    height: 20%;
-    width: 60%;
+    height: 100%;
+    width: 100%;
     color: white;
-    padding: 10px;
-    margin-top: 5%;
-    /*background-color: darkslategray;*/
-
-
-
-
+    padding: 25px;
+    background-color: darkslategray;
+    border-radius: 75px;
 }
-.td_project_screen_shot
-{
-
-    border: #f75c00 5px solid;
-
-
-
-
-}
-
 
 .td_project_title
 {
@@ -224,6 +260,7 @@ body {
     font-weight: bolder;
     background-color: white;
     color: white;
+    padding: 2%;
 
 }
 
@@ -231,31 +268,27 @@ body {
 {
 
     height: 200px;
-    border: #f75c00 5px solid;
     background-color: darkslategray;
-
+    font-size: 35px;
 }
-
-
-
 
 #resumeTitle {
 
     grid-column: 2/10;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bolder;
     height: 100%;
-    color: turquoise;
+    color: #f75c00;
     padding: 25px;
-    margin-top: 50px;
+    margin-top: 10%;
 }
 
 #resume {
 
-    grid-column: 2/8;
+    grid-column: 4/8;
     font-size: 35px;
     height: 1200px;
-    width: 1000px;
+    width: 100%;
     color: white;
     padding: 25px;
     border: #f75c00 4px solid;
@@ -268,30 +301,33 @@ body {
 {
     grid-column: 2/8;
     padding: 25px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     width: 500px;
     height: 200px;
     color: aqua;
+    text-align: center;
+    margin-left: 40%;
 
 }
 
 #conTitle {
 
     grid-column: 2/10;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bolder;
     height: 100%;
-    color: turquoise;
+    color: #f75c00;
     padding: 25px;
+    margin-top: 10%;
 
 }
 
 #contact_form {
-    grid-column: 2/8;
+    grid-column: 5/10;
     padding: 25px;
     font-size: 25px;
-    width: 600px;
+    width: 60%;
     color: #f75c00;
     border-radius: 45px;
     border: #f75c00 4px solid;
@@ -306,19 +342,20 @@ body {
 
 {
 
-    grid-column: 2/10;
-    font-size: 40px;
+    grid-column: 2/8;
+    font-size: 45px;
     height: 100%;
+    width: 100%;
     font-weight: bolder;
-    color: turquoise;
+    color: #f75c00;
     padding: 25px;
-    margin-bottom: 50px;
+    margin-top: 10%;
 
 }
 
 #reflections_iframe{
 
-    grid-column: 2/8;
+    grid-column: 5/10;
     padding: 25px;
     font-size: 25px;
     width: 1020px;
@@ -326,38 +363,17 @@ body {
     border-radius: 45px;
     border: #f75c00 4px solid;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10%;
     background-color: darkslategray;
 
 }
 
-.td_table {
-    height: 100%;
-    width: 300px;
-    padding: 25px;
-    font-size: 35px;
-    color: white;
-    text-align: center;
-    grid-column: 1/7;
 
 
-}
 
 
-.skillimages {
 
 
-    border: #f75c00 4px solid;
-    border-radius: 25px;
-}
-
-
-#edu_table {
-    grid-column: 2;
-    padding: 10px;
-
-
-}
 
 .round_images {
     border-radius: 25px;
