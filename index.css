@@ -109,12 +109,13 @@ body {
     font-size: 35px;
     grid-column: 2/6;
     color: #f75c00;
-    padding: 25px;
+    padding: 2%;
     margin-top: 10%;
 
 }
 
 #mypic {
+    grid-column: 7/9;
     margin-left: 30%;
     margin-top: 15%;
     margin-bottom: 20%;
@@ -123,6 +124,7 @@ body {
 }
 
 #sideart{
+    grid-column: 9;
     margin-top: 10%;
     margin-left: 15%;
     grid-column:8;
