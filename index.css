@@ -2,6 +2,7 @@ html {
     width: 100%;
 }
 
+
 body {
     width: 100%;
     /*background: url("black-wallpaper-22.jpg");*/
@@ -15,12 +16,13 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
     padding: 2%;
-
 }
 
 
+
+
 #myname {
-    grid-column: 2/10;
+    grid-column: 1/10;
     width: 100%;
     font-size: 55px;
     font-weight: bolder;
@@ -31,69 +33,84 @@ body {
 }
 
 
+
 #nav {
-    grid-column: 2/8;
+    grid-column: 1/8;
     width: 100%;
-    height: 100%;
-    padding: 1%;
+    height: 50%;
+    padding-bottom: 5%;
     border: 2px solid darkslategray;
     background-color: darkslategray;
     border-radius: 25px;
+    margin-right: 5%;
 }
+
+
+
 
 #git {
 
-    grid-column:8;
+    grid-column:9;
     width: 100%;
-    height: 100%;
+    height: 50%;
     border: 2px solid darkslategray;
     border-radius: 25px;
     background-color: darkslategray;
     padding-bottom:5% ;
+    margin-right: 10%;
 }
 
+
+
+
+
 #linkedIn {
-    grid-column: 9;
+    grid-column: 10;
     width: 90%;
-    padding: 2px;
-    margin-left: 15px;
-    height: 100%;
+    padding-bottom: 2px;
+    margin-left: 10%;
+    height: 50%;
     text-align: center;
     border: 2px solid darkslategray;
     border-radius: 25px;
     background-color: darkslategray;
 }
 
+
+
 .nav-item  {
 
-    padding: 5px;
-    margin: 5px;
+    padding: 1%;
+    margin: 1%;
 }
 
 
 .nav-link {
     color: white;
     font-family: Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 17px;
 }
+
+
 
 .nav-link:hover {
     color: #f75c00;
     font-family: Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 17px;
 }
 
 
 
 
 #hello {
-    margin-top: 300px;
+
     font-family: "Courier New", cursive;
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 35px;
     grid-column: 2/6;
     color: #f75c00;
     padding: 25px;
+    margin-top: 10%;
 
 }
 
@@ -106,7 +123,7 @@ body {
 }
 
 #sideart{
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 15%;
     grid-column:8;
 }
@@ -114,7 +131,7 @@ body {
 #aboutmeTitle {
 
     grid-column: 2/10;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bolder;
     height: 100%;
     color: #f75c00;
@@ -124,10 +141,10 @@ body {
 #aboutme {
 
     grid-column: 2/10;
-    font-size: 45px;
+    font-size: 25px;
     height: 100%;
     color: white;
-    padding: 2%;
+    padding: 5%;
     font-family:"Courier New", cursive;
     background-color: darkslategray;
     border-radius: 75px;
@@ -138,7 +155,7 @@ body {
 #skillsTitle {
 
     grid-column: 2/10;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bolder;
     height: 100%;
     color: #f75c00;
@@ -150,7 +167,7 @@ body {
 #skills {
 
     grid-column: 2/10;
-    font-size: 25px;
+    font-size: 15px;
     height: 100%;
     width: 100%;
     color: white;
@@ -171,7 +188,7 @@ body {
 
     margin-top: 10%;
     grid-column: 2/10;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bolder;
     height: 100%;
     color: #f75c00;
@@ -206,7 +223,7 @@ body {
     height: 100%;
     width: 700px;
     padding: 25px;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     text-align: center;
     grid-column: 1/7;
@@ -229,7 +246,7 @@ body {
 #proTitle {
 
     grid-column: 2/10;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bolder;
     height: 100%;
     color: #f75c00;
@@ -277,7 +294,7 @@ body {
 #resumeTitle {
 
     grid-column: 2/10;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bolder;
     height: 100%;
     color: #f75c00;
@@ -316,7 +333,7 @@ body {
 #conTitle {
 
     grid-column: 2/10;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bolder;
     height: 100%;
     color: #f75c00;
@@ -345,7 +362,7 @@ body {
 {
 
     grid-column: 2/8;
-    font-size: 45px;
+    font-size: 35px;
     height: 100%;
     width: 100%;
     font-weight: bolder;
@@ -357,7 +374,7 @@ body {
 
 #reflections_iframe{
 
-    grid-column: 5/10;
+    grid-column: 3/10;
     padding: 25px;
     font-size: 25px;
     width: 1020px;
@@ -369,11 +386,6 @@ body {
     background-color: darkslategray;
 
 }
-
-
-
-
-
 
 
 
