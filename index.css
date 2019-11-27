@@ -5,7 +5,7 @@ html {
 
 body {
     width: 100%;
-    /*background: url("black-wallpaper-22.jpg");*/
+    background: url("images/orange_dots.jpg");
     background-color: white;
 
 }
@@ -30,6 +30,7 @@ body {
     font-family: "Courier New", cursive;
     margin-top: 1%;
     padding: 2%;
+    background-color: white;
 }
 
 
@@ -43,6 +44,7 @@ body {
     font-family: "Courier New", cursive;
     margin-top: 1%;
     padding: 2%;
+    background-color: white;
 }
 
 
@@ -62,7 +64,7 @@ body {
 
 #git {
 
-    grid-column:9;
+    grid-column:8/10;
     width: 100%;
     height: 50%;
     border: 2px solid darkslategray;
@@ -123,6 +125,7 @@ body {
     color: #f75c00;
     padding: 2%;
     margin-top: 10%;
+    background-color: white;
 
 }
 
@@ -180,6 +183,7 @@ body {
     color: darkslategray;
     padding: 25px;
     margin-top: 5%;
+    background-color: white;
 }
 
 #aboutme {
@@ -206,6 +210,7 @@ body {
     padding: 2%;
     margin-top: 10%;
     text-decoration: darkslategray underline solid;
+    background-color: white;
 
 }
 
@@ -240,6 +245,7 @@ body {
     padding: 25px;
     margin-bottom: 5%;
     text-decoration: darkslategray underline solid;
+    background-color: white;
 
 }
 
