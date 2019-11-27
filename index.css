@@ -34,6 +34,18 @@ body {
 
 
 
+#myname:hover {
+    grid-column: 1/10;
+    width: 100%;
+    font-size: 55px;
+    font-weight: bolder;
+    color: darkorange;
+    font-family: "Courier New", cursive;
+    margin-top: 1%;
+    padding: 2%;
+}
+
+
 #nav {
     grid-column: 1/8;
     width: 100%;
@@ -114,6 +126,20 @@ body {
 
 }
 
+
+#hello:hover {
+
+    font-family: "Courier New", cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    grid-column: 2/6;
+    color: darkorange;
+    padding: 2%;
+    margin-top: 10%;
+
+}
+
+
 #mypic {
     grid-column: 7/9;
     margin-left: 30%;
@@ -122,6 +148,20 @@ body {
     border: darkslategray 10px solid;
     border-radius: 75px;
 }
+
+
+#mypic:hover {
+    grid-column: 7/9;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    border: darkcyan 10px solid;
+    border-radius: 75px;
+}
+
+
+
+
 
 #sideart{
     grid-column: 10;
