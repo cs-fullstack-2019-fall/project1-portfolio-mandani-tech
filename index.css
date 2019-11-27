@@ -106,7 +106,7 @@ body {
 
     font-family: "Courier New", cursive;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 25px;
     grid-column: 2/6;
     color: #f75c00;
     padding: 2%;
@@ -117,7 +117,7 @@ body {
 #mypic {
     grid-column: 7/9;
     margin-left: 30%;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-bottom: 20%;
     border: darkslategray 10px solid;
     border-radius: 75px;
@@ -125,19 +125,21 @@ body {
 
 #sideart{
     grid-column: 9;
-    margin-top: 10%;
-    margin-left: 15%;
-    grid-column:8;
+    margin-top: 2%;
+    margin-left: 10%;
+
 }
 
 #aboutmeTitle {
 
     grid-column: 2/10;
     font-size: 35px;
+    text-decoration: darkslategray underline solid;
     font-weight: bolder;
     height: 100%;
-    color: #f75c00;
+    color: darkslategray;
     padding: 25px;
+    margin-top: 5%;
 }
 
 #aboutme {
@@ -160,16 +162,17 @@ body {
     font-size: 35px;
     font-weight: bolder;
     height: 100%;
-    color: #f75c00;
+    color: darkslategray;
     padding: 2%;
     margin-top: 10%;
+    text-decoration: darkslategray underline solid;
 
 }
 
 #skills {
 
     grid-column: 2/10;
-    font-size: 15px;
+    font-size: 5px;
     height: 100%;
     width: 100%;
     color: white;
@@ -193,9 +196,10 @@ body {
     font-size: 35px;
     font-weight: bolder;
     height: 100%;
-    color: #f75c00;
+    color: darkslategray;
     padding: 25px;
     margin-bottom: 5%;
+    text-decoration: darkslategray underline solid;
 
 }
 
@@ -238,7 +242,7 @@ body {
     height: 100%;
     width: 700px;
     padding: 25px;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     text-align: center;
     grid-column: 1/7;
@@ -251,10 +255,11 @@ body {
     font-size: 35px;
     font-weight: bolder;
     height: 100%;
-    color: #f75c00;
+    color: darkslategray;
     padding: 25px;
     margin-top: 10%;
     margin-bottom: 5%;
+    text-decoration: darkslategray underline solid;
 
 
 }
@@ -262,12 +267,12 @@ body {
 #projects_table_section {
 
     grid-column: 2/10;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     height: 100%;
     width: 100%;
     color: white;
-    padding: 25px;
+    padding: 2%;
     background-color: darkslategray;
     border-radius: 75px;
 }
@@ -275,22 +280,22 @@ body {
 .td_project_title
 {
 
-    height: 80px;
     border: #f75c00 5px solid;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: bolder;
     background-color: white;
     color: white;
     padding: 2%;
+
 
 }
 
 .td_project_description
 {
 
-    height: 200px;
+
     background-color: darkslategray;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 #resumeTitle {
@@ -299,9 +304,10 @@ body {
     font-size: 35px;
     font-weight: bolder;
     height: 100%;
-    color: #f75c00;
+    color: darkslategray;
     padding: 25px;
     margin-top: 10%;
+    text-decoration: darkslategray underline solid;
 }
 
 #resume {
@@ -326,7 +332,7 @@ body {
     font-weight: bold;
     width: 500px;
     height: 200px;
-    color: aqua;
+    color: darkslategray;
     text-align: center;
     margin-left: 40%;
 
@@ -338,9 +344,10 @@ body {
     font-size: 35px;
     font-weight: bolder;
     height: 100%;
-    color: #f75c00;
+    color: darkslategray;
     padding: 25px;
     margin-top: 10%;
+    text-decoration: darkslategray underline solid;
 
 }
 
@@ -368,9 +375,10 @@ body {
     height: 100%;
     width: 100%;
     font-weight: bolder;
-    color: #f75c00;
+    color: darkslategray;
     padding: 25px;
     margin-top: 10%;
+    text-decoration: darkslategray underline solid;
 
 }
 
