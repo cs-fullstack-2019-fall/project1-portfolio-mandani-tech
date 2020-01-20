@@ -197,9 +197,8 @@ body {
     color: darkslategray;
     padding: 25px;
     margin-top: 5%;
-    background-color: white;
+    /*    background-color: white;*/
 }
-
 #aboutme {
 
     grid-column: 2/10;
@@ -224,7 +223,7 @@ body {
     padding: 2%;
     margin-top: 10%;
     text-decoration: darkslategray underline solid;
-    background-color: white;
+    /*background-color: white;*/
 
 }
 
@@ -259,7 +258,7 @@ body {
     padding: 25px;
     margin-bottom: 5%;
     text-decoration: darkslategray underline solid;
-    background-color: white;
+    /*background-color: white;*/
 
 }
 
@@ -329,7 +328,7 @@ body {
 
     grid-column: 2/10;
     font-size: 15px;
-    text-align: center;
+    content-align: center;
     height: 100%;
     width: 100%;
     color: white;
@@ -344,7 +343,7 @@ body {
     /*border: #f75c00 5px solid;*/
     font-size: 20px;
     font-weight: bolder;
-    /*background-color: white;*/
+    background-color: darkgray;
     color: white;
     padding: 2%;
 
