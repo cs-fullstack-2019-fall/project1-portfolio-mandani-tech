@@ -22,12 +22,13 @@ body {
 
 
 #myname {
-    grid-column: 1/10;
+    grid-column: 1/11;
     width: 100%;
-    font-size: 55px;
+    text-align: center;
+    font-size: 85px;
     font-weight: bolder;
-    color: #f75c00;
-    font-family: "Courier New", cursive;
+    color: darkslategray;
+    font-family: "Abyssinica SIL";
     margin-top: 1%;
     padding: 2%;
     background-color: white;
@@ -35,17 +36,17 @@ body {
 
 
 
-#myname:hover {
-    grid-column: 1/10;
-    width: 100%;
-    font-size: 55px;
-    font-weight: bolder;
-    color: darkorange;
-    font-family: "Courier New", cursive;
-    margin-top: 1%;
-    padding: 2%;
-    background-color: white;
-}
+/*#myname:hover {*/
+/*    grid-column: 5/10;*/
+/*    width: 100%;*/
+/*    font-size: 55px;*/
+/*    font-weight: bolder;*/
+/*    color: darkorange;*/
+/*    font-family: "Courier New", cursive;*/
+/*    margin-top: 1%;*/
+/*    padding: 2%;*/
+/*    background-color: white;*/
+/*}*/
 
 
 #nav {
@@ -121,7 +122,7 @@ body {
     font-family: "Courier New", cursive;
     font-weight: bolder;
     font-size: 25px;
-    grid-column: 1/6;
+    grid-column: 2/7;
     color: #f75c00;
     padding: 5%;
     margin-top: 10%;
@@ -133,19 +134,19 @@ body {
 }
 
 
-#hello:hover {
+/*#hello:hover {*/
 
-    font-family: "Courier New", cursive;
-    font-weight: bolder;
-    font-size: 25px;
-    grid-column: 1/6;
-    color: darkorange;
-    padding: 5%;
-    margin-top: 10%;
-    /*border: darkslategray 10px solid;*/
-    /*border-radius: 75px;*/
+/*    font-family: "Courier New", cursive;*/
+/*    font-weight: bolder;*/
+/*    font-size: 25px;*/
+/*    grid-column: 3/6;*/
+/*    color: darkslategray;*/
+/*    padding: 5%;*/
+/*    margin-top: 10%;*/
+/*    !*border: darkslategray 10px solid;*!*/
+/*    !*border-radius: 75px;*!*/
 
-}
+/*}*/
 
 
 #mypic {
@@ -158,14 +159,14 @@ body {
 }
 
 
-#mypic:hover {
-    grid-column: 7/9;
-    margin-left: 30%;
-    margin-top: 10%;
-    margin-bottom: 20%;
-    border: darkcyan 10px solid;
-    border-radius: 75px;
-}
+/*#mypic:hover {*/
+/*    grid-column: 7/9;*/
+/*    margin-left: 30%;*/
+/*    margin-top: 10%;*/
+/*    margin-bottom: 20%;*/
+/*    border: darkcyan 10px solid;*/
+/*    border-radius: 75px;*/
+/*}*/
 
 
 
@@ -174,9 +175,17 @@ body {
 #sideart{
     grid-column: 10;
     margin-top: 2%;
-    margin-left: 10%;
+    /*margin-left: 5%;*/
 
 }
+
+#left_sideart {
+    grid-column: 1;
+    margin-top: 2%;
+    /*margin-left: 5%;*/
+
+}
+
 
 #aboutmeTitle {
 
@@ -254,7 +263,7 @@ body {
 
 }
 
-#education {
+.education {
 
 
     grid-column: 2/10;
@@ -270,7 +279,7 @@ body {
 }
 
 
-#edu_table {
+.edu_table {
     grid-column: 2;
     padding: 10px;
 
@@ -324,7 +333,7 @@ body {
     height: 100%;
     width: 100%;
     color: white;
-    padding: 2%;
+    padding: 5%;
     background-color: darkslategray;
     border-radius: 75px;
 }
@@ -332,12 +341,13 @@ body {
 .td_project_title
 {
 
-    border: #f75c00 5px solid;
+    /*border: #f75c00 5px solid;*/
     font-size: 20px;
     font-weight: bolder;
-    background-color: white;
+    /*background-color: white;*/
     color: white;
     padding: 2%;
+
 
 
 }
@@ -348,6 +358,7 @@ body {
 
     background-color: darkslategray;
     font-size: 20px;
+    color: darksalmon;
 }
 
 #resumeTitle {
@@ -364,7 +375,7 @@ body {
 
 #resume {
 
-    grid-column: 4/8;
+    grid-column: 2/10;
     font-size: 35px;
     height: 1200px;
     width: 100%;
@@ -404,10 +415,10 @@ body {
 }
 
 #contact_form {
-    grid-column: 5/10;
+    grid-column: 2/10;
     padding: 25px;
     font-size: 25px;
-    width: 60%;
+    width: 100%;
     color: #f75c00;
     border-radius: 45px;
     border: #f75c00 4px solid;
