@@ -374,21 +374,21 @@ body {
     margin: 2%;
 }
 
-/*a:link {*/
-/*    color: #f75c00;*/
-/*}*/
-
-/* visited link*/
-/*a:visited {*/
-/*    color: white;*/
-/*}*/
-
- mouse over link
-a:hover {
-    color: wheat;
+a:link {
+    color: white;
 }
 
- selected link
+ /*visited link*/
+a:visited {
+    color: white;
+}
+
+ /*mouse over link*/
+a:hover {
+    color: #f75c00;
+}
+
+ /*selected link*/
 a:active {
     color: blue;
 }
