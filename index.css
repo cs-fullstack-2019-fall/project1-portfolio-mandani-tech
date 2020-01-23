@@ -242,7 +242,7 @@ body {
     background-color: darkslategray;
     border-radius: 75px;
     margin: 2%;
-    padding: 10%;
+    padding: 2%;
     opacity: 0.85;
 
 }
@@ -250,8 +250,8 @@ body {
 
 .skills_td_table {
     /*height: 100%;*/
-    /*padding: 1%;*/
-    font-size: 1vw;
+    padding: 2%;
+    font-size: 25px;
     color: white;
     text-align: center;
     /*grid-column: 1/7;*/
@@ -307,8 +307,7 @@ body {
 
 .edu_td_table {
     height: 100%;
-
-    padding: 25px;
+    padding: 2%;
     font-size: 1vw;
     color: white;
     text-align: center;
