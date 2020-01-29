@@ -1,246 +1,88 @@
-html {
-    width: 100%;
-}
-
-
-body {
-    width: 100%;
-    background: url("images/orange_dots.jpg");
-    background-color: white;
-
-}
-
-
-#container {
+#name{
+    background: darkslategray;
+    color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    width: 100%;
-    padding: 2%;
+    grid-template-columns: 1fr 1fr  1fr;
+
+}
+#socialMedia{
+
+    grid-column: 3;
+}
+#myName{
+    grid-column: 2;
 }
 
-
-
-
-#myname {
-    grid-column: 1/11;
-    width: 100%;
-    text-align: center;
-    font-size: 65px;
-    font-weight: bolder;
-    color: darkslategray;
-    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
-    margin-top: 1%;
-    padding: 2%;
-    background-color: white;
+#tagLine{
+    grid-column: 2;
 }
 
-
-
-/*#myname:hover {*/
-/*    grid-column: 5/10;*/
-/*    width: 100%;*/
-/*    font-size: 55px;*/
-/*    font-weight: bolder;*/
-/*    color: darkorange;*/
-/*    font-family: "Courier New", cursive;*/
-/*    margin-top: 1%;*/
-/*    padding: 2%;*/
-/*    background-color: white;*/
-/*}*/
-
-
-#nav {
-    grid-column: 1/11;
-    width: 100%;
-    height: 100%;
+#pic{
     padding: 1%;
-    border: 2px solid darkslategray;
-    background-color: darkslategray;
-    border-radius: 45px;
-    margin-right: 5%;
-    opacity: 0.90;
-}
-
-
-
-
-/*#git {*/
-
-/*    !*grid-column:8/10;*!*/
-/*    width: 100%;*/
-/*    height: 50%;*/
-/*    border: 2px solid darkslategray;*/
-/*    border-radius: 25px;*/
-/*    background-color: darkslategray;*/
-/*    padding-bottom:5% ;*/
-/*    margin-right: 10%;*/
-/*}*/
-
-
-
-
-
-/*#linkedIn {*/
-/*    !*grid-column: 10;*!*/
-/*    width: 90%;*/
-/*    padding-bottom: 2px;*/
-/*    margin-left: 10%;*/
-/*    height: 50%;*/
-/*    text-align: center;*/
-/*    border: 2px solid darkslategray;*/
-/*    border-radius: 25px;*/
-/*    background-color: darkslategray;*/
-/*}*/
-
-
-
-.nav-item  {
-
-    /*padding: 1%;*/
-    margin: 1%;
-}
-
-
-.nav-link {
-    color: white;
-    font-family: Verdana, sans-serif;
-    font-size: 20px;
-}
-
-
-
-.nav-link:hover {
-    color: #f75c00;
-    font-family: Verdana, sans-serif;
-    font-size: 20px;
-}
-
-
-
-
-#hello {
-
-    font-family: "Courier New", cursive;
-    font-weight: bolder;
-    font-size: 2vw;
-    grid-column: 2/8;
-    color: #f75c00;
-    padding: 5%;
-    margin-top: 10%;
-    /*border: darkslategray 10px solid;*/
-    /*border-radius: 75px;*/
-
 
 }
-
-
-/*#hello:hover {*/
-
-/*    font-family: "Courier New", cursive;*/
-/*    font-weight: bolder;*/
-/*    font-size: 25px;*/
-/*    grid-column: 3/6;*/
-/*    color: darkslategray;*/
-/*    padding: 5%;*/
-/*    margin-top: 10%;*/
-/*    !*border: darkslategray 10px solid;*!*/
-/*    !*border-radius: 75px;*!*/
-
-/*}*/
-
-
-#mypic {
-    grid-column: 8/9;
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 20%;
-    border: darkslategray 10px solid;
-    border-radius: 75px;
+#stackPill
+{
+    grid-column: 3;
 }
-
-
-/*#mypic:hover {*/
-/*    grid-column: 7/9;*/
-/*    margin-left: 30%;*/
-/*    margin-top: 10%;*/
-/*    margin-bottom: 20%;*/
-/*    border: darkcyan 10px solid;*/
-/*    border-radius: 75px;*/
-/*}*/
-
-
-
-
-
-#sideart{
-    grid-column: 10;
-    margin-top: 2%;
-
-    margin-left: 15%;
-
-}
-
-#left_sideart {
-    grid-column: 1;
-    margin-top: 2%;
-    /*margin-left: 5%;*/
-
-}
-
-
-#aboutmeTitle {
-
-    grid-column: 1/9;
-    font-size: 35px;
-    font-family:"Courier New", cursive;
-    text-decoration: darkslategray underline solid;
-    font-weight: bolder;
+.sidenav {
     height: 100%;
-    color: darkslategray;
-    /*padding: 25px;*/
-    margin-top: 5%;
-    /*    background-color: white;*/
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /*background-color: #E9EBEF;*/
+    background: darkslategray;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
-#aboutme {
 
-    grid-column: 3/9;
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
     font-size: 25px;
-    height: 100%;
-    color: white;
-    padding: 5%;
-    font-family:"Courier New", cursive;
-    background-color: darkslategray ;
-    opacity: 0.85;
-    border-radius: 75px;
-    margin-top: 2%;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
+.sidenav a:hover {
+    color: #f1f1f1;
+}
 
-#skillsTitle {
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
 
-    grid-column: 1/10;
-    font-size: 35px;
-    font-family:"Courier New", cursive;
-    font-weight: bolder;
-    height: 100%;
-    color: darkslategray;
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#aboutme{
     padding: 2%;
-    margin-top: 10%;
-    text-decoration: darkslategray underline solid;
-    /*background-color: white;*/
+}
+
+#skills-section{
+    background: darkslategray;
+    color: white;
+    padding: 2%;
 
 }
 
 #skills {
 
     grid-column: 3/9;
-    font-size: 2vw;
+    font-size: 0.5vw;
     font-family:"Courier New", cursive;
     height: 100%;
     width: 100%;
     color: white;
-    background-color: darkslategray;
-    border-radius: 75px;
     margin: 2%;
     padding: 2%;
     opacity: 0.85;
@@ -250,8 +92,8 @@ body {
 
 .skills_td_table {
     /*height: 100%;*/
-    padding: 2%;
-    font-size: 25px;
+    padding: 1%;
+    font-size: 1vw;
     color: white;
     text-align: center;
     /*grid-column: 1/7;*/
@@ -260,25 +102,20 @@ body {
 .skillimages {
 
     border: #f75c00 4px solid;
-    border-radius: 25px;
+    /*border-radius: 25px;*/
     margin: 15%;
 
 }
 
-#eduTitle {
-    grid-column: 1/10;
-    font-size: 35px;
-    font-family:"Courier New", cursive;
-    font-weight: bolder;
-    height: 100%;
-    color: darkslategray;
-    padding: 2%;
-    margin-top: 10%;
-    text-decoration: darkslategray underline solid;
-    /*background-color: white;*/
 
+#edu-section{
+    background: black;
+    color: white;
+    padding: 2%;
+    opacity: 0.85;
 
 }
+
 
 .education {
 
@@ -292,7 +129,7 @@ body {
     color: white;
     padding: 2%;
     background-color: darkslategray;
-    border-radius: 75px;
+    /*border-radius: 75px;*/
     opacity: 0.85;
 
 }
@@ -308,240 +145,26 @@ body {
 .edu_td_table {
     height: 100%;
     padding: 2%;
-    font-size: 1vw;
+    font-size: 1.25vw;
     color: white;
     text-align: center;
     grid-column: 1/7;
     border-top:solid 1px white ;
     border-bottom:solid 1px white ;
-
-}
-
-.td_table {
-    /*height: 100%;*/
-    padding: 1%;
-    font-size: 1vw;
-    color: white;
-    text-align: center;
-    /*grid-column: 1/7;*/
-}
-
-
-#proTitle {
-
-    grid-column: 1/9;
-    font-size: 35px;
-    font-family:"Courier New", cursive;
-    font-weight: bolder;
-    height: 100%;
-    color: darkslategray;
-    padding: 25px;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    text-decoration: darkslategray underline solid;
-
-
-}
-
-.projects_table_section {
-
-    grid-column: 3/9;
-    margin-top: 2%;
-    column-gap: 1%;
-    font-size: 2vw;
-    font-family:"Courier New", cursive;
-    height: 100%;
-    width: 100%;
-    color: white;
-    padding: 2%;
-    background-color: darkslategray;
-    border-radius: 75px;
-    opacity: 0.85;
-
-
-}
-
-
-.td_project_screen_shot{
-
-    /*border: #f75c00 5px solid;*/
-    grid-column: 3/9;
-    font-weight: bolder;
-    /*background-color: whitesmoke;*/
-    color: white;
-    padding: 2%;
     margin: 2%;
+
+
 }
 
-a:link {
+#project-section{
     color: white;
-}
-
- /*visited link*/
-a:visited {
-    color: white;
-}
-
- /*mouse over link*/
-a:hover {
-    color: #f75c00;
-}
-
- /*selected link*/
-a:active {
-    color: blue;
-}
-
-.td_project_title
-{
-
-    /*border: #f75c00 5px solid;*/
-
-    /*border: #f75c00 5px solid;*/
-    grid-column: 3/9;
-    font-size: 1vw;
-    text-align: left;
-    color: white;
+    background: #120009;
     padding: 2%;
-    margin: 2%;
-    border-radius: 2%;
-
-}
-
-.td_project_description
-{
-
-    grid-column: 3/9;
-    background-color: darkslategray;
-    font-size: 1vw;
-    color: lightblue;
-    margin: 2%;
-    padding: 2%;
-    border-radius: 2%;
-
-}
-
-#resumeTitle {
-
-    grid-column: 1/11;
-    font-size: 35px;
-    font-family:"Courier New", cursive;
-    font-weight: bolder;
-    height: 100%;
-    color: darkslategray;
-    padding: 25px;
-    margin-top: 10%;
-    text-decoration: darkslategray underline solid;
-}
-
-#resume {
-
-    grid-column: 3/9;
-    font-size: 35px;
-    height: 1200px;
-    width: 100%;
-    color: white;
-    padding: 25px;
-    border: #f75c00 4px solid;
-    border-radius: 45px;
-    background-color: darkslategray;
-
-    opacity: 0.95;
-}
-
-#pdf
-{
-    grid-column: 2/8;
-    padding: 2%;
-    font-size: 20px;
-    font-weight: bold;
-    width: 500px;
-    height: 200px;
-    color: darkslategray;
-    text-align: center;
-    margin-left: 40%;
-
-}
-
-#conTitle {
-
-    grid-column: 1/10;
-    font-size: 35px;
-    font-family:"Courier New", cursive;
-    font-weight: bolder;
-    height: 100%;
-    color: darkslategray;
-    padding: 25px;
-    margin-top: 10%;
-    text-decoration: darkslategray underline solid;
-
-}
-
-#contact_form {
-    grid-column: 3/9;
-    padding: 25px;
-    font-size: 25px;
-    width: 100%;
-    color: #f75c00;
-    border-radius: 45px;
-    border: #f75c00 4px solid;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: darkslategray;
     opacity: 0.85;
 
 }
 
-
-#weekly_reflect_Title
-
-{
-
-    grid-column: 1/10;
-    font-size: 35px;
-    font-family:"Courier New", cursive;
-    height: 100%;
-    width: 100%;
-    font-weight: bolder;
-    color: darkslategray;
-    padding: 25px;
-    margin-top: 10%;
-    text-decoration: darkslategray underline solid;
-
+.projects_table_section{
+    color: white;
+    font-size: 1.25vw;
 }
-
-#reflections_iframe{
-
-    grid-column: 3/9;
-    padding: 1.5%;
-    width: 100%;
-    color: #f75c00;
-    border-radius: 45px;
-    border: #f75c00 4px solid;
-    margin-top: 50px;
-    margin-bottom: 1%;
-    background-color: darkslategray;
-
-}
-
-
-
-.round_images {
-    border-radius: 25px;
-    border: #f75c00 5px solid;
-
-}
-
-footer {
-    color: lightslategray;
-    font-size: 30px;
-    grid-column: 3/9;
-    text-align: center;
-}
-
-.back_to_top {
-    color: #f75c00;
-    font-weight: bolder;
-
-}
-
