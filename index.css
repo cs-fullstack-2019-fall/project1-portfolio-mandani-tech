@@ -69,6 +69,7 @@
 }
 
 #skills-section{
+    display: grid;
     background: darkslategray;
     color: white;
     padding: 2%;
@@ -93,7 +94,7 @@
 .skills_td_table {
     /*height: 100%;*/
     padding: 1%;
-    font-size: 1vw;
+    font-size: 1.5vw;
     color: white;
     text-align: center;
     /*grid-column: 1/7;*/
@@ -102,8 +103,10 @@
 .skillimages {
 
     border: #f75c00 4px solid;
-    /*border-radius: 25px;*/
+    border-radius: 0.5em;
     margin: 15%;
+    /*background-color: white;*/
+
 
 }
 
